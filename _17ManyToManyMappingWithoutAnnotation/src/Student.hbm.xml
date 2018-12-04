@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="com.aman.Student" table="students">
+ 
+<id name="studentId" column="studentid" />
+ 
+<property name="studentName" column="studentname" length="20"/>
+<property name="marks" />
+ 
+ <!-- 'students_courses' is mediator table o store primary key as foreign key of 'Course' table -->
+<set name="courses" cascade="all" table="students_courses">
+	<key column="student_id "/>
+	<many-to-many class="com.aman.Course" column="course_id" />
+</set>
+ 
+</class>
+ 
+</hibernate-mapping>
+

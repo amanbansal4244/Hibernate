@@ -1,0 +1,87 @@
+21:05:11,586 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:05:11,602 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:05:11,604 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:05:11,605 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:31:34,523 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:31:34,538 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:31:34,539 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:31:34,542 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:49:34,650 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:49:34,667 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:49:34,668 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:54:34,968 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:54:34,982 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:54:34,983 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:54:34,985 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:54:58,085 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+21:54:58,095 DEBUG SQL:401 - select student0_.id as id0_1_, student0_.enrollment_id as enrollment2_0_1_, student0_.guide_id as guide4_0_1_, student0_.name as name0_1_, guide1_.id as id1_0_, guide1_.name as name1_0_, guide1_.salary as salary1_0_, guide1_.staff_id as staff4_1_0_ from Student student0_ left outer join Guide guide1_ on student0_.guide_id=guide1_.id where student0_.id=?
+21:55:54,730 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:55:54,743 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:55:54,745 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:55:54,747 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:56:05,792 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+21:56:05,802 DEBUG SQL:401 - select student0_.id as id0_1_, student0_.enrollment_id as enrollment2_0_1_, student0_.guide_id as guide4_0_1_, student0_.name as name0_1_, guide1_.id as id1_0_, guide1_.name as name1_0_, guide1_.salary as salary1_0_, guide1_.staff_id as staff4_1_0_ from Student student0_ left outer join Guide guide1_ on student0_.guide_id=guide1_.id where student0_.id=?
+21:56:26,209 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:56:26,222 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:56:26,223 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:56:26,225 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:56:31,503 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+21:56:31,513 DEBUG SQL:401 - select student0_.id as id0_1_, student0_.enrollment_id as enrollment2_0_1_, student0_.guide_id as guide4_0_1_, student0_.name as name0_1_, guide1_.id as id1_0_, guide1_.name as name1_0_, guide1_.salary as salary1_0_, guide1_.staff_id as staff4_1_0_ from Student student0_ left outer join Guide guide1_ on student0_.guide_id=guide1_.id where student0_.id=?
+20:19:13,043 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+20:19:13,062 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+20:19:13,063 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+20:19:13,065 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+20:38:57,024 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+20:38:57,038 DEBUG SQL:401 - select student0_.id as id0_1_, student0_.enrollment_id as enrollment2_0_1_, student0_.guide_id as guide4_0_1_, student0_.name as name0_1_, guide1_.id as id1_0_, guide1_.name as name1_0_, guide1_.salary as salary1_0_, guide1_.staff_id as staff4_1_0_ from Student student0_ left outer join Guide guide1_ on student0_.guide_id=guide1_.id where student0_.id=?
+20:32:38,556 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+20:32:38,577 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+20:32:38,579 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+20:32:38,582 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+11:03:08,985 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+11:05:36,662 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+11:05:36,680 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+11:05:36,682 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+11:05:36,683 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+12:37:32,658 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+12:37:32,679 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+12:37:32,680 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+12:37:32,682 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+12:37:32,683 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+12:39:23,425 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+12:39:23,441 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+12:39:23,442 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+12:39:23,444 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+12:39:23,447 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+12:48:54,905 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+12:48:54,921 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+12:48:54,922 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+12:48:54,924 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+12:48:54,926 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+12:48:54,930 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+12:48:54,932 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+13:06:13,383 DEBUG SQL:401 - select student0_.id as id0_, student0_.enrollment_id as enrollment2_0_, student0_.guide_id as guide4_0_, student0_.name as name0_ from Student student0_
+13:19:22,463 DEBUG SQL:401 - select student0_.id as id0_, student0_.enrollment_id as enrollment2_0_, student0_.guide_id as guide4_0_, student0_.name as name0_ from Student student0_
+13:23:01,477 DEBUG SQL:401 - select student0_.id as id0_, student0_.enrollment_id as enrollment2_0_, student0_.guide_id as guide4_0_, student0_.name as name0_ from Student student0_
+13:30:26,072 DEBUG SQL:401 - select student0_.id as id0_, student0_.enrollment_id as enrollment2_0_, student0_.guide_id as guide4_0_, student0_.name as name0_ from Student student0_
+13:31:03,688 DEBUG SQL:401 - select student0_.id as id0_, student0_.enrollment_id as enrollment2_0_, student0_.guide_id as guide4_0_, student0_.name as name0_ from Student student0_
+13:31:56,333 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+13:31:56,352 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+13:31:56,353 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+13:31:56,355 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+13:31:56,357 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+13:31:56,358 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+13:31:56,359 DEBUG SQL:401 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+13:32:32,600 DEBUG SQL:401 - select student0_.id as id0_, student0_.enrollment_id as enrollment2_0_, student0_.guide_id as guide4_0_, student0_.name as name0_ from Student student0_
+13:32:32,618 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+13:32:32,625 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+13:36:24,932 DEBUG SQL:401 - select student0_.id as id0_, student0_.enrollment_id as enrollment2_0_, student0_.guide_id as guide4_0_, student0_.name as name0_ from Student student0_
+13:36:24,953 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+13:36:24,960 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+13:56:54,139 DEBUG SQL:401 - select student0_.id as id0_, student0_.enrollment_id as enrollment2_0_, student0_.guide_id as guide4_0_, student0_.name as name0_ from Student student0_
+15:23:41,388 DEBUG SQL:401 - select student0_.id as id0_, student0_.enrollment_id as enrollment2_0_, student0_.guide_id as guide4_0_, student0_.name as name0_ from Student student0_
+15:23:41,411 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+15:28:00,574 DEBUG SQL:401 - select student0_.id as id0_, student0_.enrollment_id as enrollment2_0_, student0_.guide_id as guide4_0_, student0_.name as name0_ from Student student0_
+15:28:00,597 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+15:28:00,604 DEBUG SQL:401 - select guide0_.id as id1_0_, guide0_.name as name1_0_, guide0_.salary as salary1_0_, guide0_.staff_id as staff4_1_0_ from Guide guide0_ where guide0_.id=?
+15:34:38,418 DEBUG SQL:401 - select student0_.id as id0_0_, guide1_.id as id1_1_, student0_.enrollment_id as enrollment2_0_0_, student0_.guide_id as guide4_0_0_, student0_.name as name0_0_, guide1_.name as name1_1_, guide1_.salary as salary1_1_, guide1_.staff_id as staff4_1_1_ from Student student0_ left outer join Guide guide1_ on student0_.guide_id=guide1_.id
+09:48:18,001 DEBUG SQL:401 - insert into Guide (name, salary, staff_id) values (?, ?, ?)

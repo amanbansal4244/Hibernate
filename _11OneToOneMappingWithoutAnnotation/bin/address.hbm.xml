@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+          <hibernate-mapping>
+<class name="com.aman.Address" table="address">
+ 
+<id name="addressId" column="addressid" >
+	<generator class="foreign">
+		<param name="property">s</param> <!-- Param name 's', means it will be using as PK in 'Address' table, same as used in 'Student' table  --> 
+	</generator>
+</id>
+
+<property name="city" column="city" length="10"/>
+<property name="state" column="state" length="10"/>
+ 
+ <!-- Main concept of hibernate relations is to getting the relation between parent and child class objects
+Cascade attribute is mandatory, when ever we apply relationship between objects, cascade attribute transfers operations done on one object 
+onto its related child objects.
+If we write cascade = “all” then changes at parent class object will be effected to child class object too, 
+if we write cascade = “all” then all operations like insert, delete, update at parent object will be effected to child object also
+Example: if we apply insert(or update or delete) operation on parent class object, then child class objects will also be stored into the database.
+default value of cascade =”none” means no operations will be transfers to the child class -->
+<one-to-one name="s" class="com.aman.Student" cascade="all" />
+ 
+</class>
+</hibernate-mapping>

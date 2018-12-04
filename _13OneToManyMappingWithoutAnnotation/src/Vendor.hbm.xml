@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.aman.Vendor" table="vendor2">
+	 
+		<id name="vendorId" column="vendid"  />
+		
+		<property name="vendorName" column="vendname" length="10"/>
+		 <!-- In order to transfer operations on parent object to child object we need to add cascade attribute
+			  By default, cascade value is none, it means even though relationship is exist, the operations we are doing on parent
+			  will not transfer to child, i mean to say here operations are insert, delete, update
+			  In our Vendor.hbm.xml,  we used cascade =”all” means all operations at parent object will be transfer to child -->
+		<set name="children" cascade="all" >
+		 
+		 
+		 <!-- while applying relationships, we need to configure the foreign key column name, by using which the relationship is done
+			  In the mapping file, we need to use <key /> element to configure foreign key column name, 
+			  in this example 'vendorIdAsForeignKey' is foreign key -->
+		<key column="vendorIdAsForeignKey" />
+		
+		
+		<!-- <one-to-many> is child class with which relation been done, 
+		 in our example com.aman.Customer is the class [com.aman is the package] -->
+		<one-to-many class="com.aman.Customer" /><!-- We need to write that class name name which will be child -->
+	 
+	</set>
+	 
+	</class>
+</hibernate-mapping>

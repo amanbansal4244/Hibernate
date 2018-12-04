@@ -1,0 +1,54 @@
+package com.aman;
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+ 
+@Entity
+@Table(name = "Customer1")
+public class Customer{
+
+	@Id
+	@GeneratedValue
+	@Column(name = "custid")
+	private int customerId;
+
+	@Column(name = "custName", length=10)
+	private String customerName;
+
+	/**** We don't need to create reference variable of 'Vendor' class here like we did in without annotation example
+	 * because we are referring the 'Vendor' class id using "@JoinColumn(name="venid",referencedColumnName="vid")"
+	 */
+	@ManyToOne(targetEntity=Vendor.class, cascade = CascadeType.ALL)
+	@JoinColumn(name="venid",referencedColumnName="vid")
+	private Vendor parent;
+
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+	public Vendor getParent() {
+		return parent;
+	}
+
+	public void setParent(Vendor parent) {
+		this.parent = parent;
+	}
+
+}

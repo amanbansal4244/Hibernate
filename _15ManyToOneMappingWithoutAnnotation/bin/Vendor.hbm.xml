@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.aman.Vendor_Parent_Pojo" table="vendor_Parent_PojoTable">
+	 
+		<id name="vendorId" column="vendid"  />
+		
+		<property name="vendorName" column="vendname" length="10"/>
+		 
+		 </class>
+</hibernate-mapping>
+
+
